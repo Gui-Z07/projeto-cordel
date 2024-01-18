@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Rock';
+    src: url('font/NewRocker-Regular.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    
+    background-color: rgba(0, 0, 0, 0.971);
+    font-family: 'Rock';
+    text-align: center;
+    text-shadow: white;   
+    color: white;
+    margin: auto;
+    padding: 10px;
+    background-image: url('imagens/thumb-1920-1330260.png') ;
+   
+    
+}
+
+header > h1{
+    margin: auto;
+    padding: 30px;
+    text-transform: uppercase; 
+    font-size: 2.8em;
+    
+   
+}
+
+header p{
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 0.89em;
+    font-style: italic;
+}
+
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+
+header a:hover, footer a:hover{
+
+    border: 2px solid white;
+    background-color: darkslategray; 
+    padding-right: 7px;
+    border-radius: 10px 0px;
+    border-color: rgb(255, 255, 255);
+   
+}
+
+
+section{
+    text-indent: 15px;
+    padding-top: 10vh;/*deser texto*/
+    padding-left: 30px;/*tirar do canto da tela*/
+    padding-bottom: 10vh;
+    line-height: 2em; /*separar linhas*/
+    font-family: 'Sriracha', cursive;
+    font-size: 1.4em;
+   
+}
+
+section.normal{
+    background-color: darkslategray ;
+}
+
+section.normal p{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.509);
+    border-radius: 10px;/*reduzir caixa onde esta a color*/
+    text-indent: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.435);
+    padding-left: 10px;
+    text-align: justify;
+    font-style: italic;
+  
+}
+
+
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.531);
+    background-size: 100% 100%;
+    /* PARALAX DAS IMAGENS*/
+    background-attachment: fixed;
+
+}
+
+section.imagem p{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.509);
+    border-radius: 10px;/*reduzir caixa onde esta a color*/
+    text-indent: 10px;
+    text-shadow: 2px 2px 0px black;
+    padding-left: 10px;
+    text-align: justify;
+    font-style: italic;
+}
+
+
+
+section#img001{
+    background-image: url('imagens/bring-me-the-horizon-.jpg');
+    background-position: center center;
+   
+
+}
+
+
+section#img002{
+    background-image: url('imagens/Three-Days-Grace_Artefakt.jpeg');
+    background-position: center center;
+    
+}
+    
+
+section#img003{
+    background-image: url('imagens/kansas\ band.webp');
+    background-position: right center;
+   
+}
+
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
