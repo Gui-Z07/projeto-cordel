@@ -91,7 +91,7 @@ section.normal p{
     background-color: rgba(0, 0, 0, 0.509);
     border-radius: 10px;/*reduzir caixa onde esta a color*/
     text-indent: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.435);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.460);
     padding-left: 10px;
     text-align: justify;
     font-style: italic;
@@ -100,10 +100,11 @@ section.normal p{
 
 
 section.imagem{
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.531);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.630);
     background-size: 100% 100%;
     /* PARALAX DAS IMAGENS*/
     background-attachment: fixed;
+    
 
 }
 
