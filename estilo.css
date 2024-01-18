@@ -84,6 +84,25 @@ section.normal{
     background-color: darkslategray ;
 }
 
+a.link-msc{
+    color: white;
+    text-align: justify;
+    font-style: italic;
+    font-weight: bolder;
+    
+    
+}
+
+a.link-msc:hover{
+    border: 2px solid white;
+    background-color: darkslategray; 
+    padding-right: 7px;
+    border-radius: 10px 0px;
+    border-color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
 section.normal p{
     background-color: black;
     color: rgb(255, 255, 255);
@@ -94,8 +113,10 @@ section.normal p{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.460);
     padding-right: 10px;
     padding-left: 10px;
+    padding-top: 5px;
     text-align: justify;
     font-style: italic;
+    
   
 }
 
