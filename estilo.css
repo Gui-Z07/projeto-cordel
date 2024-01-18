@@ -92,6 +92,7 @@ section.normal p{
     border-radius: 10px;/*reduzir caixa onde esta a color*/
     text-indent: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.460);
+    padding-right: 10px;
     padding-left: 10px;
     text-align: justify;
     font-style: italic;
@@ -100,13 +101,15 @@ section.normal p{
 
 
 section.imagem{
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.630);
+    
     background-size: 100% 100%;
     /* PARALAX DAS IMAGENS*/
     background-attachment: fixed;
     
 
 }
+
+
 
 section.imagem p{
     background-color: black;
@@ -116,6 +119,7 @@ section.imagem p{
     border-radius: 10px;/*reduzir caixa onde esta a color*/
     text-indent: 10px;
     text-shadow: 2px 2px 0px black;
+    padding-right: 10px;
     padding-left: 10px;
     text-align: justify;
     font-style: italic;
@@ -126,6 +130,7 @@ section.imagem p{
 section#img001{
     background-image: url('imagens/bring-me-the-horizon-.jpg');
     background-position: center center;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
    
 
 }
@@ -134,6 +139,7 @@ section#img001{
 section#img002{
     background-image: url('imagens/Three-Days-Grace_Artefakt.jpeg');
     background-position: center center;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
     
 }
     
@@ -141,6 +147,7 @@ section#img002{
 section#img003{
     background-image: url('imagens/kansas\ band.webp');
     background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
    
 }
 
